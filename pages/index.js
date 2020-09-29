@@ -19,7 +19,7 @@ Home.getInitialProps = async (ctx) => {
     const employees= res.data
     return { employees}
   } catch (error) {
-    return { error } 
+    return { error }  
   }
 }
 
